@@ -48,7 +48,7 @@ def main():
     hexa = [{col: row[col] for col in selected_columns} for row in result]
     hexa = pd.DataFrame(hexa)
 
-    message = "Top 10 Arcade Snapshot\n 🕖"+ datetime.now().strftime('%Y-%m-%d %H:%M:%S')+ " (UTC+7)"
+    message = "Top 10 Arcade Snapshot\n 🕖"+ datetime.now().strftime('%Y-%m-%d %H:%M:%S')+ " (UTC+0)"
 
     message = message+"\n\n🌈 Rainbow Blast\n"
     for i, r in rainbow.iterrows():
